@@ -25,10 +25,10 @@ int main(void) {
 }
 float wallis_pi(int n)
 {
-  int pc=1;
+  double pc=1.0;
   for(int i=1,i<= n,i++)
   {
-    pc=pc*((2*i/2*i-1)*(2*i/2*i-1));
+    pc=pc*((2*i/2*i-1.0)*(2*i/2*i-1.0));
   }
   return pc;
 }
