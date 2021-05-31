@@ -39,5 +39,12 @@ int main(void) {
   }
 }
 
+float mc_pi(int n)
+{
+  float x_cor,y_cor;
+  x_cor=frandom;
+  y_cor=frandom;
+  
+}
 
 
