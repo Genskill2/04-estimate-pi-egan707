@@ -41,8 +41,8 @@ int main(void) {
 
 float mc_pi(int n)
 {
-  float x_cor,y_cor;
-  double dist,pi;
+  float x_cor,y_cor,pi;
+  double dist;
   int i=0,cc;
   cc=0;
   while(i<=n)
@@ -55,10 +55,10 @@ float mc_pi(int n)
       cc++;
       
     }
-    
+    i++;
   }
   pi=4*cc/n;
-  return(pi);
+  return pi;
   
 }
 
