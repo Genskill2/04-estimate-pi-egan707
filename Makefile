@@ -11,3 +11,4 @@ test_mc: monte_carlo
 
 test_wallis: wallis
 	./wallis
+	
