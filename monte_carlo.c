@@ -53,7 +53,6 @@ float mc_pi(int n)
     if (dist<=1.0)
     {
       cc++;
-      
     }
     i++;
   }
