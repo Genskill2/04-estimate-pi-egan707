@@ -42,8 +42,23 @@ int main(void) {
 float mc_pi(int n)
 {
   float x_cor,y_cor;
+  double dist,pi;
+  int i=0,cc;
+  cc=0;
+  while(i<=n)
+  {
   x_cor=frandom;
   y_cor=frandom;
+    dist=x_cor*x_cor+y_cor*y_cor;
+    if (dist<=1.0)
+    {
+      cc++;
+      
+    }
+    
+  }
+  pi=4*cc/n;
+  return(pi);
   
 }
 
