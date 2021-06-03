@@ -7,9 +7,7 @@ exercises: monte_carlo wallis
 test: test_mc test_wallis
 
 test_mc: monte_carlo
-./monte_carlo
-	
+	./monte_carlo
 
 test_wallis: wallis
-./wallis
-	
+	./wallis
