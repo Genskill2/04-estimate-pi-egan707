@@ -56,7 +56,7 @@ float mc_pi(int n)
     }
     i++;
   }
-  pi=4*cc/n;
+  pi=(float)4*cc/n;
   return pi;
   
 }
