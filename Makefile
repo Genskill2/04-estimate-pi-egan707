@@ -29,6 +29,7 @@ float mc_pi(int n)
   
 }
 	./monte_carlo
+	***
 
 test_wallis: wallis
 float wallis_pi(int n)
